@@ -10,6 +10,6 @@ def grade_converter(grade):
     else:
       return "F"
 
-    print(grade_converter(92))
-    print(grade_converter(70))
-    print(grade_converter(61))
+print(grade_converter(92))
+print(grade_converter(70))
+print(grade_converter(61))
