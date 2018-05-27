@@ -32,7 +32,20 @@ else:
   print("I get printed!")
 
 
-  
+def clinic():
+  print("You've just entered the clinic!")
+  print("Do you take the door on the left or the right?")
+  answer = input("Type left or right and hit 'Enter'.").lower()
+
+  if answer == "left" or answer == "l":
+    print("Verbal Abuse Room")
+  elif answer == "right" or answer == "r":
+    print("Argument Room")
+  else:
+    print("You didn't pick! Try again")
+
+clinic()
+
 
 
 
