@@ -8,6 +8,8 @@ def digit_sum(x):
         print(x)
         return total
 
+print(digit_sum(31))
+
 
 #Calculating the factorial
 
@@ -17,6 +19,8 @@ def factorial(x):
         total *= x
         x -= 1
         return total
+
+print(factorial(3))
 
 
 #Is_Prime?
@@ -30,6 +34,8 @@ def is_prime(x):
                 return False
     return True
 
+print(is_prime(4))
+
 
 
 #Reversing a word
@@ -41,6 +47,11 @@ def reverse(text):
         word = word + text[l]
         l -= 1
         return word
+
+text = "cat"
+reverse(text)
+print(text," ", reverse(text))
+
 
 
 #Anti Vowel
