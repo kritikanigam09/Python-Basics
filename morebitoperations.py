@@ -34,7 +34,7 @@ def check_bit4(input):
         return "off"
     print(check_bit4(0b1001))   
 
-# To turn a bit in a number on , use '|'
+# To turn a bit in a number on  use |
 a = 0b10111011
 mask = 0b100
 desired = a | mask
